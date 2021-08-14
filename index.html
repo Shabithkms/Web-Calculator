@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="main-body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="output-screen">
+            <div class="buttons">
+                <div class="row">
+                    <button class="btn" style="background: #592626; color: #f24141;" onclick="allClear()">C</button>
+                    <button class="btn" onclick="btnShow('(')">(</button>
+                    <button class="btn" onclick="btnShow(')')">)</button>
+                    <button class="btn oprtr-btn-color" onclick="btnShow('/')">÷</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnShow(7)">7</button>
+                    <button class="btn" onclick="btnShow(8)">8</button>
+                    <button class="btn" onclick="btnShow(9)">9</button>
+                    <button class="btn oprtr-btn-color" onclick="btnShow('*')">x</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnShow(4)">4</button>
+                    <button class="btn" onclick="btnShow(5)">5</button>
+                    <button class="btn" onclick="btnShow(6)">6</button>
+                    <button class="btn oprtr-btn-color" onclick="btnShow('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnShow(1)">1</button>
+                    <button class="btn" onclick="btnShow(2)">2</button>
+                    <button class="btn" onclick="btnShow(3)">3</button>
+                    <button class="btn oprtr-btn-color" onclick="btnShow('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnShow(0)">0</button>
+                    <button class="btn" onclick="btnShow('.')">.</button>
+                    <button class="btn" onclick="deletingOneByOne()">del</button>
+                    <button class="btn" style="background: #51d663;" onclick="btnEqual()">=</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="footerpart">
+            <a href="https://www.instagram.com/mr.kms_/"><i class="fab fa-instagram insta socialmedia"></i></a>
+            <a href="https://github.com/Shabithkms"><i class="fab fa-github github socialmedia"></i></a>
+            <a href="https://www.linkedin.com/in/muhammed-shabith-k-3ab495204/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BgKmDiV%2FsQD2xuBA27zvyDA%3D%3D"><i class="fab fa-linkedin-in twitter socialmedia"></i></i></a>
+            <p class="para">Design By <a href="https://github.com/Shabithkms" class="name">KMS</a></p>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ca35c461a2.js" crossorigin="anonymous"></script>
+</body>
+</html>
