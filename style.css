@@ -1,27 +1,29 @@
 .main-body{
-    background-image: url(background\ \(2\).jpg);
+    background-color: #faebd7a6;
     height: 661px;
     padding-top: 6px;
     margin: -8px;
 }
 .calc{
     width: 320px;
-    height: 590px;
+    height: 530px;
     background: #171716;
     margin-left: 510px;
     margin-top: 31px;
     border-radius: 15px;
 }
 #output-screen{
-    width: 318px;
-    height: 177px;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 275px;
+    height: 100px;
     font-size: 20px;
-    color: aliceblue;
+    color: #171716e;
     text-align: right;
     border-radius: 15px;
     border: 0px;
     border-color: #171716;
-    background: #171716;
+    background: #faebd7;
     pointer-events: none;
 }
 .btn{
@@ -36,7 +38,7 @@
     margin-top: 12px;
     border-radius: 26px;
     border: 0px solid;
-    background: #242424;
+    background: #3e3e3e;
     cursor: pointer;
 }
 .oprtr-btn-color{
